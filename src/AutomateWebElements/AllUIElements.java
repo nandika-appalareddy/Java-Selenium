@@ -21,8 +21,7 @@ public class AllUIElements {
 		
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
 		driver.findElement(By.cssSelector("a[value='GOI']")).click();
-	  //driver.findElement(By.xpath("//div[@id='ctl00_mainContent_ddl_destinationStation1_CTNR']//a[@value='MAA']")).click();
-	    driver.findElement(By.xpath("//div[@id='ctl00_mainContent_ddl_destinationStation1_CTNR']//a[@value='HYD']")).click();
+		driver.findElement(By.xpath("//div[@id='ctl00_mainContent_ddl_destinationStation1_CTNR']//a[@value='HYD']")).click();
 		driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_0")).click();
 		driver.findElement(By.cssSelector("input[id='ctl00_mainContent_view_date1']")).click();
 		driver.findElement(By.cssSelector("a[class='ui-state-default ui-state-highlight ui-state-hover']")).click();
